@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Optimization;
 using System.Web.UI;
 
-namespace DavidsBlog
+namespace Blog
 {
     public class BundleConfig
     {

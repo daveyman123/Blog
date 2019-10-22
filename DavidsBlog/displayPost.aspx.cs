@@ -6,7 +6,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace DavidsBlog
+namespace Blog
 {
     public partial class displayPost : System.Web.UI.Page
     {

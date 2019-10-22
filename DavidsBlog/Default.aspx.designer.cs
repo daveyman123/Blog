@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DavidsBlog
+namespace Blog
 {
 
 

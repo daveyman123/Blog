@@ -3,7 +3,7 @@
 using System.Data;
 using System.Configuration;
 using System.Data.SqlClient;
-namespace DavidsBlog
+namespace Blog
 {
     public class BlogPosts
     {

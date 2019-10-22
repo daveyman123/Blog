@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DavidsBlog {
+namespace Blog {
     
     
     public partial class Site_Mobile {

@@ -4,7 +4,7 @@ using System.Data;
 
 using System.Data.SqlClient;
 
-namespace DavidsBlog
+namespace Blog
 {
     public partial class addPost : System.Web.UI.Page
     {

@@ -1,5 +1,5 @@
 ﻿
-<%@ Page Title="addPost" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="addPost.aspx.cs" Inherits="DavidsBlog.addPost" %>
+<%@ Page Title="addPost" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="addPost.aspx.cs" Inherits="Blog.addPost" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <!DOCTYPE html>
 
