@@ -37,3 +37,13 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Pay-As-You-Go(3)(60f39a84-0116-4753-bf79-9d491dc43874)'
+    appType: 'webApp'
+    WebAppName: 'MC-programming-club-blog'
+    deployToSlotOrASE: true
+    ResourceGroupName: 'daveyman123'
+    SlotName: 'production'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
