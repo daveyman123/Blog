@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="displayPost.aspx.cs" Inherits="DavidsBlog.displayPost" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    
+    sadf
     <div>  
         <h1>Display the posts.</h1>  
         <asp:DropDownList ID="drpPosts" runat="server"></asp:DropDownList><br />  
