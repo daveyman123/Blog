@@ -13,7 +13,7 @@
         <h1>Add Post</h1>
         <label>Title</label>
         <asp:TextBox ID="txtTitle" runat="server" TextMode="SingleLine"></asp:TextBox><br />
-        <label>Author</label>
+        <label class="l">Author</label>
         <asp:TextBox ID="txtAuth" runat="server" TextMode="SingleLine"></asp:TextBox><br />
         <label>Post Content</label>
         <asp:TextBox ID="txtCont" runat="server" TextMode="MultiLine"></asp:TextBox><br />
